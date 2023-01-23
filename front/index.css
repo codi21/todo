@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400&family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400&family=Covered+By+Your+Grace&family=Overpass+Mono:wght@400;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+body{
+  font-size: 16px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+#lists{
+  display: flex;
+  width : 100%;
+  justify-content : space-around; 
+}
+#doneList{
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Overpass Mono', monospace;
+
+}
+h3{
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size :2.8rem;
+
+}
+.nav{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+#title{
+  background-clip:content;
+  display:flex;
+  justify-content: center;
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size :3.8rem;
+  background-size: 100%;
+  background-image: linear-gradient(45deg, red,yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/*
+#inside{
+  background-image: linear-gradient(60deg,red,yellow);
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size :3.8rem;
+}*/
+.addTodo{
+  padding-top: 3rem;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  height:7rem;
+}
+#form{
+}
+/* aca voy a tener que modificar los tamaños segun la pantalla */
+#task{
+  width: 42rem;
+  height : 3.5rem;
+  box-sizing:border-box;
+  filter: drop-shadow(0 10px 20px #F0F0F0);
+  background: #FFFFFF;
+  border:0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  padding-left:3rem;
+}
+#task:focus{
+  border:0;
+}
+#sendTask{
+  height : 3.5rem;
+  width : 6.62rem;
+  height : 3.5rem;
+  filter: drop-shadow(0 10px 20px #F0F0F0);
+
+  background-size: 100%;
+  background-image: linear-gradient(45deg, red,yellow);
+  color:white;
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-size:1.5rem;
+  box-sizing:border-box;
+  border:0;
+  border-top-right-radius:1rem;
+  border-bottom-right-radius:1rem;
+
+}
+#sendTask:hover{
+  cursor:pointer;
+}
+
+.sendData{
+  display:flex;
+  align-items:center;
+  filter: drop-shadow(0px 10px 20px #F0F0F0);
+  border-top-right-radius:1rem;
+  border-bottom-right-radius:1rem;
+}
+.task-list{
+  font-family: 'Andika', sans-serif;
+  font-family: 'Covered By Your Grace', cursive;
+  font-family: 'Overpass Mono', monospace;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.list1{
+  display:flex;
+  flex-direction : column;
+  align-items: center;
+}
+.list2{
+  display:flex;
+  flex-direction : column;
+  align-items: center;
+}
+
+.bi-pen{
+  color:#FFB800;
+  padding:1rem;
+}
+.bi-pen:hover{
+  cursor:pointer;
+  padding:1rem;
+}
+.bi-file-earmark-minus{
+  color:#FF6262;
+  padding:1rem;
+}
+.bi-file-earmark-minus:hover{
+  cursor:pointer;
+}
+.bi-check-circle{
+  color:#05FF00;
+}
+.bi-check-circle:hover{
+  cursor:pointer;
+}
+
